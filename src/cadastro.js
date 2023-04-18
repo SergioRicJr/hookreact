@@ -15,7 +15,7 @@ export const Cadastro = () => {
             <input type="button" 
                 onClick={adicionaUsuario}
             ></input>
-            {usuarios.map((pessoa)=>((<p>{pessoa}</p>)))}
+            {usuarios.map((pessoa)=>{ return (<p>{pessoa}</p>)})}
         </div>
     )
 }
